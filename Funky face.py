@@ -9,7 +9,7 @@ class face:
     def draw(self):
         self.goHome()
         pensize(3)
-        speed(0)
+        speed(10)
         self.drawOutLine()
         self.drawEye(135)
         self.drawEye(45)
@@ -32,7 +32,8 @@ class face:
     def drawEye(self, turn):
         penup()
         left(turn)
-        forward(self.size/2)
+        forward(self.size*3)
+        forward(10)
         pendown()
         dot(self.size/10)
         self.goHome
@@ -42,6 +43,7 @@ class face:
         right(135)
         forward(self.size/1.7)
         left(90)
+        backward(150)
         pendown()
         circle(self.size/1.7,90)
         self.goHome()
