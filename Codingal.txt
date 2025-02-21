@@ -1,4 +1,1 @@
-Codingal has a pet called Penguin. 
-Coding is fun and a nice hobby to practice.
-Coding is interesting.
-Hi i am penguin.
+This is Codingal. 
